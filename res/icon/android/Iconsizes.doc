@@ -1,0 +1,4 @@
+3. Icon Sizes (full / content) 
+Density Launcher Menu Action Bar Status Bar and Notification Tab Pop-up Dialog and List View Small and Contextual ldpi 36x36 px 36x36 / 24x24 px 24x24 / 18x18 px 18x18 / 16x16 px 24x24 / 22x22 px 24x24 px 12x12 / 9x9 px mdpi 48x48 px 48x48 / 32x32 px 32x32 / 24x24 px 24x24 / 22x22 px 32x32 / 28x28 px 32x32 px 16x16 / 12x12 px hdpi 72x72 px 72x72 / 48x48 px 48x48 / 36x36 px 36x36 / 33x33 px 48x48 / 42x42 px 48x48 px 24x24 / 18x18 px xhdpi 96x96 px 96x96 / 64x64 px 64x64 / 48x48 px 48x48 / 44x44 px 64x64 / 56x56 px 64x64 px 32x32 / 24x24 px xxhdpi 144x144 px (1) (1) (1) (1) (1) (1) * (1) Google documentation says: "Applications should not generally worry about this density; relying on XHIGH graphics being scaled up to it should be sufficient for almost all cases." 
+* Launcher icons for Android Market: 512x512 px. 
+
