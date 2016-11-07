@@ -27,7 +27,7 @@
   <link rel="stylesheet" href="js/jquery.mobile-1.4.5.min.css" />
  <!--  <meta name="viewport" content="width=device-width, initial-scale=1"> -->
 <script src="js/jquery-1.12.4.min.js" type="text/javascript"></script>
-<script src="js/jquery.mobile-1.4.2.js" type="text/javascript"></script> 
+<script src="js/jquery.mobile-1.4.5.js" type="text/javascript"></script> 
 
 
 
@@ -64,6 +64,14 @@ text-decoration:none;
     transform: translate(-50%, -50%);
 	width: 90%;
 }
+h2 {
+	font-size: 0.8em;
+	text-align: center;
+	}
+hr {
+    width: 100%;
+	color: white;	
+	}
 
 </style>
 </head>
@@ -79,7 +87,7 @@ text-decoration:none;
 			</div>
 		</div>
 		<div data-role="footer">
-			<h2><a href="http://www.mauerschwalbe.de" target="blank">&copy; Mauerschwalbe.de 2016</a></h2>
+			<h2><a href="http://www.mauerschwalbe.de" target="blank" style="color:white">&copy; Mauerschwalbe.de 2016</a></h2>
 		</div>
 	
 	</div>
@@ -87,12 +95,7 @@ text-decoration:none;
 	<div data-role="page" id="page2" data-theme="d">
 		<div data-role="header">
 			<h1><a href="#page1" >KERN friseure app</a></h1>
-			<div data-role="navbar">
-				<ul>
-					<li><a href="#page2" data-icon="phone" class="ui-btn-active">Termine</a></li>
-					<li><a href="#page3" data-icon="clock">Öffnungszeiten</a></li>
-				</ul>
-			</div>				
+		
 		</div>
 		<div data-role="main" class="ui-content">
 			<h1>Termine</h1>
@@ -102,16 +105,22 @@ text-decoration:none;
 		<a href="tel:03041717637"><img src="bilder/phone.svg" alt="logo"  >030 41717637</a>
 		</br>
 		</p>
-
+			<p></br></br></br></br></br></br>
+			</br></br></br></br></br></br></br></br></p>
 		</div>
+		
+		<hr><h2><a href="http://www.mauerschwalbe.de" target="blank" style="color:white">&copy; Mauerschwalbe.de 2016</a></h2></br></br></br>
+		
 		<div data-role="footer">
 			<div data-role="navbar">
 					<ul>
-						<li><a href="#page4" data-icon="phone">Preise</a></li>
-						<li><a href="#page5" data-icon="clock">Anfahrt</a></li>
+						<li><a href="#page2" data-icon="phone" class="ui-btn-active">Termine</a></li>
+						<li><a href="#page3" data-icon="clock">Öffnungszeiten</a></li>						
+						<li><a href="#page4" data-icon="shop">Preise</a></li>
+						<li><a href="#page5" data-icon="location">Anfahrt</a></li>
+
 					</ul>
 			</div>		
-			<h2><a href="http://www.mauerschwalbe.de" target="blank">&copy; Mauerschwalbe.de 2016</a></h2>
 		</div>
 	
 	</div>
@@ -119,12 +128,6 @@ text-decoration:none;
 	<div data-role="page" id="page3" data-theme="d">
 		<div data-role="header">
 			<h1><a href="#page1" >KERN friseure app</a></h1>
-			<div data-role="navbar">
-				<ul>
-					<li><a href="#page2" data-icon="phone">Termine</a></li>
-					<li><a href="#page3" data-icon="clock" class="ui-btn-active">Öffnungszeiten</a></li>
-				</ul>
-			</div>				
 		</div>
 		<div data-role="main" class="ui-content">
 			<h1>Unsere Öffnungszeiten</h1>
@@ -142,17 +145,21 @@ text-decoration:none;
 				<h1>Samstags</h1>
 				<p>09-18 Uhr</p>
 			</div>
-			</br></br></br></br></br></br>
-
+			<p></br></br></br></br></br></br>
+			</br></br></br></br></br></br></br></br></p>
 		</div>
+		
+		<hr><h2><a href="http://www.mauerschwalbe.de" target="blank" style="color:white">&copy; Mauerschwalbe.de 2016</a></h2></br></br></br>
+								
 		<div data-role="footer">
 			<div data-role="navbar">
 					<ul>
-						<li><a href="#page4" data-icon="phone">Preise</a></li>
-						<li><a href="#page5" data-icon="clock">Anfahrt</a></li>
+						<li><a href="#page2" data-icon="phone" >Termine</a></li>
+						<li><a href="#page3" data-icon="clock" class="ui-btn-active">Öffnungszeiten</a></li>						
+						<li><a href="#page4" data-icon="shop">Preise</a></li>
+						<li><a href="#page5" data-icon="location">Anfahrt</a></li>
 					</ul>
 			</div>		
-			<h2><a href="http://www.mauerschwalbe.de" target="blank">&copy; Mauerschwalbe.de 2016</a></h2>
 		</div>
 	
 	</div>
@@ -160,12 +167,6 @@ text-decoration:none;
 	<div data-role="page" id="page4" data-theme="d">
 		<div data-role="header">
 			<h1><a href="#page1" >KERN friseure app</a></h1>
-			<div data-role="navbar">
-				<ul>
-					<li><a href="#page2" data-icon="phone">Termine</a></li>
-					<li><a href="#page3" data-icon="clock">Öffnungszeiten</a></li>
-				</ul>
-			</div>				
 		</div>
 		<div data-role="main" class="ui-content">
 			<h1>Preise</h1>
@@ -173,17 +174,21 @@ text-decoration:none;
 		<p>Haare kämmen - 10€</br>
 			Bart bürsten - 8,50€</br>
 		</p>
-
-	
+			<p></br></br></br></br></br></br>
+			</br></br></br></br></br></br></br></br></p>
 		</div>
+
+		<hr><h2><a href="http://www.mauerschwalbe.de" target="blank" style="color:white">&copy; Mauerschwalbe.de 2016</a></h2></br></br></br>
+		
 		<div data-role="footer">
 			<div data-role="navbar">
 					<ul>
-						<li><a href="#page4" data-icon="phone" class="ui-btn-active">Preise</a></li>
-						<li><a href="#page5" data-icon="clock">Anfahrt</a></li>
+						<li><a href="#page2" data-icon="phone" >Termine</a></li>
+						<li><a href="#page3" data-icon="clock" >Öffnungszeiten</a></li>						
+						<li><a href="#page4" data-icon="shop" class="ui-btn-active">Preise</a></li>
+						<li><a href="#page5" data-icon="location">Anfahrt</a></li>
 					</ul>
 			</div>		
-			<h2><a href="http://www.mauerschwalbe.de" target="blank">&copy; Mauerschwalbe.de 2016</a></h2>
 		</div>
 	
 	</div>
@@ -191,12 +196,6 @@ text-decoration:none;
 	<div data-role="page" id="page5" data-theme="d">
 		<div data-role="header">
 			<h1><a href="#page1" >KERN friseure app</a></h1>
-			<div data-role="navbar">
-				<ul>
-					<li><a href="#page2" data-icon="phone">Termine</a></li>
-					<li><a href="#page3" data-icon="clock">Öffnungszeiten</a></li>
-				</ul>
-			</div>				
 		</div>
 		<div data-role="main" class="ui-content">
 			<h1>Anfahrt</h1>
@@ -206,17 +205,20 @@ text-decoration:none;
 		</p>
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2426.1305590310762!2d13.408731315898608!3d52.54916324181986!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a852046aa049d9%3A0xb6e70ed00574d2c7!2sKopenhagener+Str.+8%2C+10437+Berlin!5e0!3m2!1sde!2sde!4v1478273339257"
  width="100%" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
-	</br></br></br></br></br></br></br></br>
-
+				</br></br></br></br></br></br></br></br>
 		</div>
+
+		<hr><h2><a href="http://www.mauerschwalbe.de" target="blank" style="color:white">&copy; Mauerschwalbe.de 2016</a></h2></br></br></br>
+				
 		<div data-role="footer">
 			<div data-role="navbar">
 					<ul>
-						<li><a href="#page4" data-icon="phone">Preise</a></li>
-						<li><a href="#page5" data-icon="clock" class="ui-btn-active">Anfahrt</a></li>
+						<li><a href="#page2" data-icon="phone" >Termine</a></li>
+						<li><a href="#page3" data-icon="clock" >Öffnungszeiten</a></li>						
+						<li><a href="#page4" data-icon="shop" >Preise</a></li>
+						<li><a href="#page5" data-icon="location" class="ui-btn-active">Anfahrt</a></li>
 					</ul>
 			</div>		
-			<h2><a href="http://www.mauerschwalbe.de" target="blank">&copy; Mauerschwalbe.de 2016</a></h2>
 		</div>
 	
 	</div>
